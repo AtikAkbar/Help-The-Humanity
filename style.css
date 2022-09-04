@@ -54,3 +54,15 @@ a{
     background-color: #FFEEEE;
     border-radius: 5%;
 }
+#donation-amount{
+    border: none;
+    border-bottom: 1px solid #767676;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+#button{
+    border: none;
+    margin: 30px;
+}
