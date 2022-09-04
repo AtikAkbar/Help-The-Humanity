@@ -56,9 +56,9 @@ a{
 #donation-amount{
     border: none;
     border-bottom: 1px solid #767676;
-    width: 100%;
+    width: 500px;
     text-align: center;
-    padding: 5px 0;
+    /* padding: 5px 0; */
     margin-bottom: 20px;
 }
 #button{
@@ -93,7 +93,7 @@ a{
     background-color: #FFF4D6;
 }
 #section4{
-    margin: 0 40px;
+    margin: 0 40px 150px;
 }
 .half-width{
     width: 50%;
@@ -103,4 +103,41 @@ a{
 .half-width img{
     width: 80%;
     margin-left: 70px;
+}
+#section5 form{
+
+    background-color: #FFF4D6;
+    width: 600px;
+    margin: auto;
+    padding: 50px 10px;
+}
+#email{
+    border: 0;
+    width: 300px;
+    height: 40px;
+    background-color: #D9D9D9;
+    padding-left: 10px;
+}
+#subscribe-btn{
+    font-weight: bold;
+    margin-left: 0;
+    height: 42px;
+    border: 0;
+    width: 120px;
+    background-color: #FF5959;
+    color: white;
+}
+#section5{
+    margin-bottom: 150px;
+}
+footer{
+    padding: 30px;
+    background-color: #0B0D17;
+}
+footer h2{
+    color: #FF5959;
+    font-family: 'Courgette', cursive;
+}
+footer h3, footer p{
+    color: #fff;
 }
