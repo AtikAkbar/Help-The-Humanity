@@ -1,6 +1,7 @@
 body{
     font-family: 'Inter', sans-serif;
     margin: 0;
+    text-align: center;
 }
 h1{
     font-size: 48px;
@@ -35,21 +36,20 @@ a{
     padding: 10px 20px;
     border-radius: 10px;
 }
-#section2{
-    text-align: center;
-}
-#section2 p{
+#section2 p, #section3 p{
     color: #707070;
 }
 #section2 span{
     display: inline-block;
     color: #707070;
+    background-color: #FAFAFA;
     font-weight: 700;
     font-size: 20px;
-    margin: 30px 0;
-    padding: 40px 30px;
+    margin: 30px 5px;
+    padding: 40px 0;
+    width: 140px;
 }
-#selected{
+#section2 span#selected{
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
     border-radius: 5%;
@@ -65,4 +65,31 @@ a{
 #button{
     border: none;
     margin: 30px;
+}
+.flexible-container{
+    display: flex;
+    text-align: left;
+}
+.card{
+    margin: auto;
+    width: 220px;
+    height: 240px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+
+}
+.card img{
+    margin-top: 10px;
+    width: 50px;
+    border: 2px solid #000;
+}
+#card1{
+    background-color: #4F9DA61A;
+}
+#card2{
+    background-color: #FF59591A;
+}
+#card3{
+    background-color: #FFF4D6;
 }
