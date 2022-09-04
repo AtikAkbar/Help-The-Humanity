@@ -3,10 +3,15 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 48px;
 }
-#section1{
-    /* position: relative; */
+h2{
+    font-size: 38px;
+}
+section{
+    margin-bottom: 100px;
+}
+#section1{ 
     text-align: center;
     background-image: url(Images/donation13.jpg);
     background-repeat: no-repeat;
@@ -14,8 +19,10 @@ h1{
     height: 600px;
     color: #fff;
 }
-#banner{
+#section1 div{
     padding-top: 150px;
+}
+.middle-align{
     width: 70%;
     margin: auto;
 }
@@ -27,4 +34,23 @@ a{
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
+}
+#section2{
+    text-align: center;
+}
+#section2 p{
+    color: #707070;
+}
+#section2 span{
+    display: inline-block;
+    color: #707070;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px 0;
+    padding: 40px 30px;
+}
+#selected{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    border-radius: 5%;
 }
