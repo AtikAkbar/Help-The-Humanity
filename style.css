@@ -10,10 +10,9 @@ h2{
     font-size: 38px;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 #section1{ 
-    text-align: center;
     background-image: url(Images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -92,4 +91,16 @@ a{
 }
 #card3{
     background-color: #FFF4D6;
+}
+#section4{
+    margin: 0 40px;
+}
+.half-width{
+    width: 50%;
+    text-align: left;
+    margin-right: 50px;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 70px;
 }
